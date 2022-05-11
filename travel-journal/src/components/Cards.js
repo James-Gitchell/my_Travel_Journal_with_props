@@ -24,7 +24,8 @@ export default function Cards(props){
               <div className="bottom--info">
                 <h1>{props.title}</h1> 
                 <h5>{props.startDate} - {props.endDate}</h5>
-                <p className="card--description">{props.description}</p>     
+                <p className="card--description">{props.description}</p>  
+                <h5>{props.myExperienceHere}</h5>   
               </div>
               </div>
          
